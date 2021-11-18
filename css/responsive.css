@@ -1,21 +1,21 @@
 body {
-    padding: 20px;
+    /* padding: 20px; */
     color: black;
 
 }
 
-@media only screen and(max-witch:600px){
+@media only screen and(min-width:480px){
    body{
        background-color:yellow;
    }
-   
+  
+#Home .Col{
+    width: 100%;
+    
+ } 
 }
 
-@media only screen and(min-width:600px){
-   body{
-       background-color: green;
-   }
-}
+
 
 @media only screen and(min-widtch:768){
    body{
